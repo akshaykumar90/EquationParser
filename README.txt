@@ -1,6 +1,6 @@
 INPUT FILE SPECIFICATIONS
 
-The input file is broadly divided into four sections – one of which is optional – which are discussed below:
+The input file is broadly divided into four sections - one of which is optional - which are discussed below:
 1. Variables
 2. Constants
 3. Objective Function
@@ -29,7 +29,7 @@ After all the variables and constants have been declared, the objective function
 MAX ax1+bx2+cx3-dx4
 
 CONSTRAINTS
-After the objective function, the constraints must be defined. There are three types of constraints: <=,>= and =. All three types of constraints can occur in any particular order, no predefined order is forced. The constraints can be any valid mathematical inequality using any or none of the variables/constants declared above. Also the equation can use all the standard functions defined for the program. See the appendix for available functions. But be sure of including only constants – either numeric or defined above – on the R.H.S. of the inequality.
+After the objective function, the constraints must be defined. There are three types of constraints: <=,>= and =. All three types of constraints can occur in any particular order, no predefined order is forced. The constraints can be any valid mathematical inequality using any or none of the variables/constants declared above. Also the equation can use all the standard functions defined for the program. See the appendix for available functions. But be sure of including only constants - either numeric or defined above - on the R.H.S. of the inequality.
 
 2x-3y+5z<=8
 c1x-c2x<=c3
